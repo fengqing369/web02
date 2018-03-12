@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- 引入默认样式 -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- 引入兼容样式 -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <!-- 引入页面样式 -->
+  <link rel="stylesheet" href="./css/index.css">
+  <!-- 引入favicon  有的时候 你也看不到这句代码 依然有favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>京东首页</title>
+</head>
+
+<body>
+  <!-- 布局容器 -->
+  <div class="jdm-container">
+    <!-- 1.固定头部 -->
+    <header class="jdm-header">
+      <!-- 头部logo -->
+      <a href="javascript:;" class="jdm-header-logo"></a>
+      <!-- 头部搜索 -->
+      <div class="jdm-header-search">
+        <!-- 搜索按钮  icon i -->
+        <i class="jdm-header-search-icon"></i>
+        <!-- 搜索框 -->
+        <input class="jdm-header-search-input" type="text" placeholder="闪购日部分每满199减100">
+      </div>
+      <!-- 头部登录 -->
+      <a href="javascript:;" class="jdm-header-login">登录</a>
+    </header>
+    <!-- 2.固定底部 -->
+    <footer class="jdm-footer">
+      <ul>
+        <li>
+          <a href="javascript:;">
+            <img src="./images/index-icon.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <img src="./images/sort-icon.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <img src="./images/618-icon.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <img src="./images/cart-icon.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <img src="./images/center-icon.png" alt="">
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <!-- 3.主要内容 -->
+    <main class="jdm-main">
+      <!-- 1.轮播图 -->
+      <div class="jdm-carousel">
+        <ul>
+          <li>
+            <a href="javascript:;">
+              <img src="./upload/slide_1.jpg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- 2.导航-->
+      <div class="jdm-nav">
+        <ul>
+          <li>
+            <a href="javascript:;">
+              <img src="./images/nav_1.png" alt="">
+              <span>京东超市</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./images/nav_2.png" alt="">
+              <span>全球购</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./images/nav_3.png" alt="">
+              <span>充值中心</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./images/nav_4.png" alt="">
+              <span>服装城</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./images/nav_5.png" alt="">
+              <span>理财</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./images/nav_6.png" alt="">
+              <span>领券</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./images/nav_7.png" alt="">
+              <span>物流查询</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./images/nav_8.png" alt="">
+              <span>我的关注</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- 3.秒杀 -->
+      <div class="jdm-seckill">
+        <div class="jdm-seckill-title">
+          <h4>掌上秒杀</h4>
+          <div class="jdm-seckill-title-time">
+            <span>0</span>
+            <span>0</span>
+            <span>:</span>
+            <span>0</span>
+            <span>0</span>
+            <span>:</span>
+            <span>0</span>
+            <span>0</span>
+          </div>
+          <a href="javascript:;" class="jdm-seckill-title-more">更多秒杀</a>
+        </div>
+        <div class="jdm-seckill-content">
+          <ul>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/seckill_1.jpg" alt="">
+                <b>热卖</b>
+              </a>
+              <div class="price">
+                <span class="new">&yen;79</span>
+                <span class="old">&yen;138</span>
+              </div>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/seckill_2.jpg" alt="">
+                <b>超值</b>
+              </a>
+              <div class="price">
+                <span class="new">&yen;169</span>
+                <span class="old">&yen;238</span>
+              </div>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/seckill_3.jpg" alt="">
+                <b>推荐</b>
+              </a>
+              <div class="price">
+                <span class="new">&yen;179</span>
+                <span class="old">&yen;198</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 4.会场 -->
+      <div class="jdm-meeting">
+        <img src="./upload/banner_bg.jpg" alt="">
+
+        <ul>
+          <li>
+            <a href="javascript:;">
+              <img src="./upload/banner_1.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./upload/banner_2.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+              <img src="./upload/banner_3.jpg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- 5.热卖 -->
+      <div class="jdm-hotsale">
+        <ul>
+          <li>
+            <a href="javascript:;">
+              <img src="./upload/major_1.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+              <img src="./upload/major_2.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+              <img src="./upload/major_3.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./upload/major_4.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+              <img src="./upload/major_5.jpg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="./upload/major_6.jpg" alt="">
+            </a>
+            <a href="javascript:;">
+              <img src="./upload/major_7.jpg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- 6.广告 -->
+      <div class="jdm-advert">
+        <img src="./upload/advert_1.jpg" alt="">
+      </div>
+      <!-- 7.特色超市 -->
+      <div class="jdm-market jdm-extra">
+        <h4 class="jdm-extra-title jdm-market-title">
+          特色超市
+        </h4>
+        <div class="jdm-extra-content jdm-market-content">
+          <ul>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/market_1.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/market_2.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/market_3.jpg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/market_4.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/market_5.jpg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 8.广告 -->
+      <div class="jdm-advert">
+        <img src="./upload/advert_3.jpg" alt="">
+      </div>
+      <!-- 9.主题街 -->
+      <div class="jdm-theme jdm-extra">
+        <h4 class="jdm-extra-title jdm-theme-title">
+          主题街
+        </h4>
+        <div class="jdm-extra-content jdm-theme-content">
+          <ul>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/theme_1.jpg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/theme_2.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/theme_3.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/theme_4.jpg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/theme_5.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/theme_6.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/theme_7.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/theme_8.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/theme_9.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/theme_10.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/theme_11.jpg" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="./upload/theme_12.jpg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--10.广告 -->
+      <div class="jdm-advert">
+        <img src="./upload/advert_4.jpg" alt="">
+      </div>
+      <!-- 11.品牌推荐 -->
+      <div class="jdm-brand jdm-extra">
+        <h4 class="jdm-extra-title jdm-brand-title">
+          主题街
+        </h4>
+        <div class="jdm-extra-content jdm-brand-content">
+          <ul>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/brand_1.jpg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/brand_2.jpg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/brand_3.jpg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 12.广告 -->
+      <div class="jdm-advert">
+        <img src="./upload/advert_7.jpg" alt="">
+      </div>
+      <!-- 13.猜你喜欢 -->
+      <div class="jdm-guess">
+        <div class="jdm-guess-title">
+          <h4>猜你喜欢</h4>
+          <a href="">登录后更懂你</a>
+        </div>
+        <div class="jdm-guess-content">
+              <a href="" class="item">
+                <!-- 上 -->
+                <img class="item-image" src="./upload/item_1.jpg">
+                <!-- 中间 -->
+                <p class="item-desc">曼秀雷敦（Mentholatum）控油抗痘洁面乳150ml（男士洗面奶 洁面 控油）</p>
+                <!-- 底部 -->
+                <div class="item-price">
+                  <span>&yen;25.20 </span>
+                 <button>看相似</button>
+                </div>
+              </a>
+              <a href="" class="item">
+                  <!-- 上 -->
+                  <img class="item-image" src="./upload/item_1.jpg">
+                  <!-- 中间 -->
+                  <p class="item-desc">曼秀雷敦（Mentholatum）控油抗痘洁面乳150ml（男士洗面奶 洁面 控油）</p>
+                  <!-- 底部 -->
+                  <div class="item-price">
+                    <span>&yen;25.20 </span>
+                   <button>看相似</button>
+                  </div>
+                </a>
+                <a href="" class="item">
+                    <!-- 上 -->
+                    <img class="item-image" src="./upload/item_1.jpg">
+                    <!-- 中间 -->
+                    <p class="item-desc">曼秀雷敦（Mentholatum）控油抗痘洁面乳150ml（男士洗面奶 洁面 控油）</p>
+                    <!-- 底部 -->
+                    <div class="item-price">
+                      <span>&yen;25.20 </span>
+                     <button>看相似</button>
+                    </div>
+                  </a>
+                  <a href="" class="item">
+                      <!-- 上 -->
+                      <img class="item-image" src="./upload/item_1.jpg">
+                      <!-- 中间 -->
+                      <p class="item-desc">曼秀雷敦（Mentholatum）控油抗痘洁面乳150ml（男士洗面奶 洁面 控油）</p>
+                      <!-- 底部 -->
+                      <div class="item-price">
+                        <span>&yen;25.20 </span>
+                       <button>看相似</button>
+                      </div>
+                    </a>
+                    <a href="" class="item">
+                        <!-- 上 -->
+                        <img class="item-image" src="./upload/item_1.jpg">
+                        <!-- 中间 -->
+                        <p class="item-desc">曼秀雷敦（Mentholatum）控油抗痘洁面乳150ml（男士洗面奶 洁面 控油）</p>
+                        <!-- 底部 -->
+                        <div class="item-price">
+                          <span>&yen;25.20 </span>
+                         <button>看相似</button>
+                        </div>
+                      </a>
+                      <a href="" class="item">
+                          <!-- 上 -->
+                          <img class="item-image" src="./upload/item_1.jpg">
+                          <!-- 中间 -->
+                          <p class="item-desc">曼秀雷敦（Mentholatum）控油抗痘洁面乳150ml（男士洗面奶 洁面 控油）</p>
+                          <!-- 底部 -->
+                          <div class="item-price">
+                            <span>&yen;25.20 </span>
+                           <button>看相似</button>
+                          </div>
+                        </a>
+                        <a href="" class="item">
+                            <!-- 上 -->
+                            <img class="item-image" src="./upload/item_1.jpg">
+                            <!-- 中间 -->
+                            <p class="item-desc">曼秀雷敦（Mentholatum）控油抗痘洁面乳150ml（男士洗面奶 洁面 控油）</p>
+                            <!-- 底部 -->
+                            <div class="item-price">
+                              <span>&yen;25.20 </span>
+                             <button>看相似</button>
+                            </div>
+                          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

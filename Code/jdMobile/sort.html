@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>分类页</title>
+    <!-- 引入默认样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入兼容样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入页面样式 -->
+    <link rel="stylesheet" href="./css/sort.css">
+    <!-- 引入favicon  有的时候 你也看不到这句代码 依然有favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- 布局容器 -->
+  <div class="jdm-container">
+    <!-- 头部 -->
+    <header class="jdm-header">
+      <!-- 返回按钮 -->
+      <a href="javascript:;" class="jdm-header-back"></a>
+      <!-- 搜索框 -->
+      <div class="jdm-header-search">
+        <input type="text" placeholder="花王在日本直采,京东全求购自营">
+      </div>
+      <!-- 菜单按钮 -->
+      <a href="javascript:;" class="jdm-header-menu"></a>
+    </header>
+    <!-- 主要区域
+      左边固定 右边自适应
+
+      方案: flex布局
+
+      1.如何让一个盒子变成伸缩容器
+          diplay: flex
+
+      2.如何控制伸缩项目的占的空间
+         flex:比值
+    -->
+    <main class="jdm-main">
+      <aside class="jdm-main-left">
+          <ul>
+              <li class="active">热门推荐</li>
+              <li>潮流女装</li>
+              <li>品牌男装</li>
+              <li>个护化妆</li>
+              <li>电脑办公</li>
+              <li>手机数码</li>
+              <li>母婴童装</li>
+              <li>图书</li>
+              <li>家具家纺</li>
+              <li>居家生活</li>
+              <li>家具建材</li>
+              <li>食品生鲜</li>
+              <li>酒水饮料</li>
+              <li>运动户外</li>
+              <li>鞋靴礼品</li>
+              <li>奢侈礼品</li>
+              <li>珠宝钟表</li>
+              <li>玩具乐器</li>
+              <li>内衣配饰</li>
+              <li>汽车用品</li>
+              <li>音像制品</li>
+              <li>医药保健</li>
+              <li>计生情趣</li>
+              <li>京东金融</li>
+              <li>生活旅行</li>
+              <li>宠物农资</li>
+            </ul>
+      </aside>
+
+      <!-- 独立的节或段
+            article 文章
+      -->
+      <section class="jdm-main-right"></section>
+    </main>
+  </div>
+</body>
+</html>

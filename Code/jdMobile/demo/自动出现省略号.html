@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    /* 需求: 单行自动出现省略号
+       方式: 用js去截取数据()
+    */
+    
+    /* 使用css自动出现省略号 要求元素一定不能是行内元素 */
+    /* p { */
+      /* width: 110px; */
+      /* 强制让文字一行显示 */
+      /* white-space: nowrap; */
+      /* 超出隐藏 */
+      /* overflow: hidden; */
+      /* 出现省略号    ellipsis省略号 */
+      /* text-overflow: ellipsis; */
+    /* } */
+
+
+    p {
+      width: 700px;
+
+      /* 类似于display: flex */
+      display: -webkit-box;
+      /* 类似于flex-dircection */
+      /* 垂直的，竖立的; */
+      -webkit-box-orient: vertical;
+      /* 设定文字显示几行 */
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+      唧唧复唧唧，木兰当户织。不闻机杼声，唯闻女叹息。
+      问女何所思，问女何所忆。女亦无所思，女亦无所忆。昨夜见军帖，可汗大点兵，军书十二卷，卷卷有爷名。阿爷无大儿，木兰无长兄，愿为市鞍马，从此替爷征。
+      东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭。旦辞爷娘去，暮宿黄河边，不闻爷娘唤女声，但闻黄河流水鸣溅溅。旦辞黄河去，暮至黑山头，不闻爷娘唤女声，但闻燕山胡骑鸣啾啾。
+  </p>
+</body>
+
+</html>
